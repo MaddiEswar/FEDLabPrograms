@@ -1,0 +1,14 @@
+h1{
+    text-align:center;
+    color: rgb(65, 146, 253);
+}
+table{
+    border: 2px solid;
+    align-items: center;
+
+}
+td{
+    text-align: center;
+    border: 2px solid black;
+    color: darksalmon;
+}
