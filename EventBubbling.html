@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -8,18 +7,18 @@
 
 <body>
 	<div id="parent">
-		<button id="child" onclick="event.stopPropagation()">Child</button>
+		<button id="child" onclick="event.Propagation()">Child</button>
 	</div>
 <script>
 	var parent = document.querySelector('#parent');
 	var child = document.querySelector('#child');
 
 	parent.addEventListener('click', function() {
-		console.log("Parent Clicked");
+		alert("Parent Clicked");
 	});
 
 	child.addEventListener('click', function(){
-		console.log("Child Clicked");	
+		alert("Child Clicked");	
 	});
 </script>
 </body>
